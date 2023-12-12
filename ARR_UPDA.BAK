@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+void main(){
+int arr[5] = {1,2,3,4,5};
+int i,index,a;
+clrscr();
+for(i=0;i<5;i++){
+printf("%d,",arr[i]);  }
+printf("\n");
+printf("Enter the position which you want to update:");
+scanf("%d",&index);
+if(index>4){
+printf("Entered position doesn't exist");         }
+else  {
+for(i=0;i<5;i++){
+printf("%d,",arr[i]);
+arr[i]=a; }
+
+
+getch();
+}
